@@ -1,21 +1,17 @@
 # Security Policy
 
-## Supported Versions
-
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
-
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you discover a security vulnerability in Qwen3-TTS-ncnn, please report it by opening an issue on the GitHub Issues page with the label `security`.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+## Supported Versions
+
+| Version | Supported |
+| ------- | --------- |
+| latest  | ✅        |
+
+## Best Practices
+
+- Always use the latest Docker image for production deployments.
+- Keep your ncnn library and dependencies up to date.
+- Run Docker containers with minimal required privileges.

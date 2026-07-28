@@ -1,6 +1,6 @@
 # Qwen3-TTS-ncnn
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-lightgrey.svg)](https://github.com/QwenLM/Qwen3-TTS)
 
 **High-performance inference of Qwen3-TTS on CPU/GPU using ncnn.**
